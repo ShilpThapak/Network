@@ -1,0 +1,73 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("https://cdn.hipwallpaper.com/i/19/95/Y8aXrT.jpg");
+}
+
+#postcard{
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+#editcard{
+    display: none;
+    margin: 5px;
+}
+
+
+
+.grid-container {
+    display: grid; 
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 100px auto 100px;
+ 
+  }
+
+.grid-item{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#fullcard{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+#postcontent{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#postauthor{
+    font-size: 20px;
+}
+
+#submitbtn{
+    border-radius: 10px;
+}
+#edit-btn{
+    float: right;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.likebtn{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color:dodgerblue;
+}
+.unlikebtn{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color:dodgerblue;
+}
